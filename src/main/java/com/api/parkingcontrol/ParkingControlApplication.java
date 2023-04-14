@@ -15,6 +15,6 @@ public class ParkingControlApplication {
 
 	@GetMapping("/")
 	public String index(){
-		return "Olá Mundo!";
+		return "Olá Mundo! Bem vindo ao meu primeiro projeto em Spring Boot";
 	}
 }
